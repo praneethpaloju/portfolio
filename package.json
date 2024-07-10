@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/praneethpaloju/portfolio.git",
+  "homepage": "https://github.com/praneethpaloju/portfolio",
   "version": "2.0.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,7 +21,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "postdeploy": "rm -rf build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
